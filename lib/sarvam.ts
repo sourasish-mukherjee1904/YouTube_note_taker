@@ -96,7 +96,7 @@ export class SarvamService {
     const endpoint = "https://api.sarvam.ai/text-to-speech";
     const languageCode = options.languageCode || "en-IN";
     const speaker = options.speaker || "shubh"; // Indian English tutor voice
-    const model = options.model || "bulbul:v4-flash";
+    const model = options.model || "bulbul:v3";
 
     try {
       const response = await fetch(endpoint, {
